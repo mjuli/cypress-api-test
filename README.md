@@ -1,12 +1,12 @@
-Testes de API com Cypress
+# Testes de API com Cypress
 
-Instalação:
+### Instalação:
 - npm install
 
-Iniciar servidor:
+### Iniciar servidor:
 - npx serverest
 
-Rodar testes:
+### Rodar testes:
 - npm run cy:run
 - npm run cy:open
 - npm run cy:report
