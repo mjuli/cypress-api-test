@@ -1,0 +1,30 @@
+{
+  "name": "api-cypress",
+  "version": "1.0.0",
+  "description": "Testes de API com cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "cy:report": "npx mochawesome-merge ./mochawesome-report/mochawesome*.json  > mochawesome-report/report.json && npx marge mochawesome-report/report.json"
+  },
+  "keywords": [
+    "test",
+    "cypress",
+    "API"
+  ],
+  "author": "Julia Martins",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.6.0"
+  },
+  "dependencies": {
+    "cypress-multi-reporters": "^1.6.1",
+    "joi": "^17.6.0",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
